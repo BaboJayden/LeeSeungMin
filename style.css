@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    background-color: #9943e6;
+    cursor: default;
+}
+.container {
+    display: grid;
+    width: 600px;
+    height: 600px;
+    grid-template-rows: 1fr 1.5fr 3fr 0.5fr;
+    border: 5px solid white;
+    margin: auto;
+    border-radius: 10%;
+    background-color: #7f21d1;
+}
+.title {
+    margin: auto;
+}
+#header {
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+}
+input {
+    display: none;
+}
+.problem {
+    display: grid;
+    grid-template-columns: 14fr 1fr;
+}
+#problem {
+    margin: auto;
+    font-size: 30px;
+    color: white;
+}
+#level {
+    font-size: 17px;
+    font-weight: bold;
+}
+.select {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+}
+.selectGuide {
+    margin: auto;
+    font-size: 40px;
+    color: #f3e6ff;
+    font-weight: bold;
+}
+label {
+    font-size: 35px;
+    color: #f3e6ff;
+    margin: auto;
+    cursor: pointer;
+}
+label:hover {
+    font-size: 40px;
+}
+.empty {
+    margin: auto;
+}
+#next {
+    width: 80px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    font-weight: bold;
+    font-size: 20px;
+    display:none;
+    cursor: pointer;
+}
